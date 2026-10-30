@@ -64,5 +64,147 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-api-stock-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://api-stock.com/
+API Stock provides a unified API platform offering video, image, music, and large language model (LLM) capabilities. Users can access a catalog of AI models with a single API key and prepaid balance, benefiting from automatic failover to reserve providers. The service includes a dashboard for account management, pricing details, and quickstart guides, and supports OpenAI‑compatible chat endpoints and asynchronous media APIs.
+
+**Areas:** AI · Machine Learning · LLM · API · Platform
+
+## api-stock-com on APIs.io
+
+Everything profiled for api-stock-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/api-stock-com/](https://apis.io/providers/api-stock-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (7)
+
+- [api-stock-com Account Management API](https://apis.io/apis/api-stock-com/api-stock-com-account-management-api/) — The Account Management API from api-stock-com — 2 operation(s) for account management.
+- [api-stock-com Agent API](https://apis.io/apis/api-stock-com/api-stock-com-agent-api/) — The Agent API from api-stock-com — 45 operation(s) for agent.
+- [api-stock-com Catalog API](https://apis.io/apis/api-stock-com/api-stock-com-catalog-api/) — The Catalog API from api-stock-com — 3 operation(s) for catalog.
+- [api-stock-com Costs API](https://apis.io/apis/api-stock-com/api-stock-com-costs-api/) — The Costs API from api-stock-com — 2 operation(s) for costs.
+- [api-stock-com Generations API](https://apis.io/apis/api-stock-com/api-stock-com-generations-api/) — The Generations API from api-stock-com — 4 operation(s) for generations.
+- [api-stock-com LLM API](https://apis.io/apis/api-stock-com/api-stock-com-llm-api/) — The LLM API from api-stock-com — 3 operation(s) for llm.
+- [api-stock-com Task Management API](https://apis.io/apis/api-stock-com/api-stock-com-task-management-api/) — The Task Management API from api-stock-com — 1 operation(s) for task management.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Api Stock Com Agentic Access](https://apis.io/agentic-access/api-stock-com/api-stock-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AnthropicMessageResponseDto](https://apis.io/schemas/api-stock-com/api-stock-com-anthropic-message-response-dto/)
+- [CatalogModelDto](https://apis.io/schemas/api-stock-com/api-stock-com-catalog-model-dto/)
+- [ChatCompletionRequestDto](https://apis.io/schemas/api-stock-com/api-stock-com-chat-completion-request-dto/)
+- [CreateGenerationRequestDto](https://apis.io/schemas/api-stock-com/api-stock-com-create-generation-request-dto/)
+- [GenerationDto](https://apis.io/schemas/api-stock-com/api-stock-com-generation-dto/)
+- [StatsResponseDto](https://apis.io/schemas/api-stock-com/api-stock-com-stats-response-dto/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Api Stock Com Context](https://apis.io/jsonld/api-stock-com/api-stock-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [api-stock-com API Rules](https://apis.io/rules/api-stock-com/api-stock-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Api Stock Com Authentication](https://apis.io/security/api-stock-com/api-stock-com-authentication/)
+- [Api Stock Com Domain Security](https://apis.io/security/api-stock-com/api-stock-com-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Api Stock Com Scopes](https://apis.io/scopes/api-stock-com/api-stock-com-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Api Stock Com Plans Pricing](https://apis.io/plans/api-stock-com/api-stock-com-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Api Stock Com Rate Limits](https://apis.io/rate-limits/api-stock-com/api-stock-com-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://api-stock.com/)
+- [Documentation](https://docs.api-stock.com)
+- [Getting started](https://docs.api-stock.com/docs/getting-started)
+- [API reference](https://docs.api-stock.com/reference)
+- [Pricing](https://api-stock.com/pricing)
+- [Sign up](https://api-stock.com/auth/signup)
+- [Blog](https://api-stock.com/blog)
+- [Terms of service](https://api-stock.com/terms)
+- [Privacy policy](https://api-stock.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 55.7** — strong · rubric 0.25.0 · scored 2026-10-30
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 55.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 18.9 |
+| Developer ergonomics | 58.8 |
+| Access clarity | 44.7 |
+
+**Agent readiness 59.4** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | mostly |
+
+**Regulatory alignment 31.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/api-stock-com/](https://apis.io/providers/api-stock-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for api-stock-com: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/api-stock-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
